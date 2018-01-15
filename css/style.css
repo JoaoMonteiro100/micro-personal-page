@@ -113,6 +113,28 @@ a.button:hover {
     cursor: pointer;
 }
 
+@media screen and (max-width: 550px) {
+    .logo-corner {
+        width: 100px;
+    }
+
+    .middle-square {
+        display: block;
+        width: 50%;
+        height: 80%;
+    }
+
+    .btns {
+        padding-top: 20px;
+    }
+
+    a.button {
+        padding-top: 30px;
+        padding-bottom: 5px;
+        font-size: 1em;
+    }
+}
+
 #social-media {
     position: relative;
     z-index: -1;

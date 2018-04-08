@@ -143,7 +143,6 @@ a.button:hover {
     width: 100%;
 }
 
-/* line 1050, ../sass/style.scss */
 .social-icons {
     position: relative;
     display: block;
@@ -152,14 +151,13 @@ a.button:hover {
     margin: auto;
 }
 
-/* line 1054, ../sass/style.scss */
 .social-icon {
     display: inline-block;
     position: relative;
     margin: 1px !important;
     padding: 0 !important;
 }
-/* line 1060, ../sass/style.scss */
+
 .social-icon span {
     line-height: 50px;
     text-align: center;
@@ -174,7 +172,7 @@ a.button:hover {
     -webkit-transition: .1s;
     transition: .1s;
 }
-/* line 1076, ../sass/style.scss */
+
 .social-icon span:hover {
     border-radius: 50%;
     -o-transition: .2s;
@@ -182,32 +180,42 @@ a.button:hover {
     -webkit-transition: .2s;
     transition: .2s;
 }
-/* line 1087, ../sass/style.scss */
+
 .social-icon .fa-github:hover {
     background-color: #d8d5db;
     color: black;
 }
-/* line 1094, ../sass/style.scss */
-.social-icon .fa-linkedin:hover {
+
+.social-icon .fa-medium-m:hover {
+    background-color: black;
+    color: white;
+}
+
+.social-icon .fa-linkedin-in:hover {
     background-color: #007bb5;
     color: white;
 }
-/* line 1101, ../sass/style.scss */
+
 .social-icon .fa-facebook:hover {
     background-color: #3b5998;
     color: white;
 }
-/* line 1108, ../sass/style.scss */
+
 .social-icon .fa-skype:hover {
     background-color: #00aff0;
     color: white;
 }
-/* line 1115, ../sass/style.scss */
+
+.social-icon .fa-twitter:hover {
+    background-color: white;
+    color: #1dcaff;
+}
+
 .social-icon .fa-instagram:hover {
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
     color: white;
 }
-/* line 1129, ../sass/style.scss */
+
 .social-icon .fa-envelope:hover {
     background-color: #13a89e;
     color: white;

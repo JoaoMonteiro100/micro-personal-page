@@ -98,6 +98,7 @@ a.button {
     border: none;
     color: rgba(29, 45, 53, 1) !important;
     font-family: Roboto, sans-serif;
+    font-weight: 600;
     font-size: 1.2em;
 }
 
